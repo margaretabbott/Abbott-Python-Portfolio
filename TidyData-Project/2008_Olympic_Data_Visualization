@@ -1,0 +1,50 @@
+## Importing The Data:
+import pandas as pd 
+olympics_2008=pd.read_csv("TidyData-Project/olympics_08_medalists.csv")
+print("This is the original untidied/unclensed 2008 olympic medalist data:")
+print(olympics_2008)
+### The original data is in wide format, so we should reshape it to be long format
+
+## Melting The Data Into Long Format:
+olympics_2008_long=pd.melt(olympics_2008, 
+                               id_vars="medalist_name",
+                               var_name="SportwithGender", 
+                               value_name="Medal")
+olympics_2008_long=olympics_2008_long.dropna()
+olympics_2008_long[["Gender", "Sport"]]=olympics_2008_long["SportwithGender"].str.split("_", expand=True)
+olympics_2008_long=olympics_2008_long.drop(columns=["SportwithGender"])
+olympics_2008_long=olympics_2008_long.rename(columns={"medalist_name": "Athlete"})
+print("This is the melted 2008 olympic medalist data:")
+print(olympics_2008_long)
+
+
+## Pivot Table and Aggeration Function:
+olympics_2008_pivot=olympics_2008_long.pivot_table(index="Sport",
+                                                     columns="Gender",
+                                                     values="Medal",
+                                                     aggfunc="count")
+print("This is the 2008 olympic medalist data in a pivot table showing the count of medals per sport:")
+print(olympics_2008_pivot)
+
+## Visualizations:
+import seaborn as sns
+import matplotlib.pyplot as plt
+plt.figure(figsize=(12,6))
+sns.countplot(data=olympics_2008_long, 
+              y="Sport", 
+              order=olympics_2008_long["Sport"].value_counts().index)
+plt.xlabel("Number of Medals")
+plt.ylabel("Sport")
+plt.title("Total Medals Won per Sport")
+plt.show()
+
+plt.figure(figsize=(12,6))
+sns.heatmap(olympics_2008_pivot, annot=True, cmap="coolwarm", linewidths=0.5)
+plt.title("Heatmap of Medals by Sport and Gender")
+plt.show()
+
+olympics_2008_long["Medal"].value_counts().plot.pie(autopct="%1.1f%%", colors=["gold", "silver", "brown"])
+plt.title("Percentage of Medals Won")
+plt.ylabel("")
+plt.show()
+
