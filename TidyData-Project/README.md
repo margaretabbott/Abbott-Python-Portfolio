@@ -8,3 +8,6 @@
 * https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
 * https://vita.had.co.nz/papers/tidy-data.pdf
 ## Visual Examples 
+![image](https://github.com/user-attachments/assets/75e732f8-858a-4a12-be11-9bf787318108)
+![image](https://github.com/user-attachments/assets/d17513dc-1d39-4e58-b5a5-5e77e8933a0a)
+![image](https://github.com/user-attachments/assets/00dd8625-2913-4a23-b9e4-210e5819a62e)
