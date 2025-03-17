@@ -4,6 +4,7 @@
 ## Instructions 
 ### This Juypter notebook is dependent on three Python libraries beyound the basic language: Pandas, Seaborn, and MatPlotLib, all three of these libraries must be properly imported for this Notebook to run properly.
 ## Dataset Description 
+### The dataset for this project contains information on medalists from the 2008 Olympic Games. It includes details such as athlete names, sports, gender, and medal types. Preprocessing steps involve handling missing values, standardizing column names, ensuring each variable has its own column and each observation (athlete's medal win) is in its own row, and restructuring the data to follow tidy data principles. These steps will make the dataset easier to analyze and visualize effectively.
 ## References
 * https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
 * https://vita.had.co.nz/papers/tidy-data.pdf
