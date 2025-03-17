@@ -40,7 +40,7 @@ plt.show()
 
 plt.figure(figsize=(12,6))
 sns.heatmap(olympics_2008_pivot, annot=True, cmap="coolwarm", linewidths=0.5)
-plt.title("Heatmap of Medals by Sport and Gender")
+plt.title("Medals by Sport and Gender")
 plt.show()
 
 olympics_2008_long["Medal"].value_counts().plot.pie(autopct="%1.1f%%", colors=["gold", "silver", "brown"])
