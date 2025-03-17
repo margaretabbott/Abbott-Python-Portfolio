@@ -4,7 +4,9 @@
 ### Description 
 #### Streamlit is designed to create interactive web applications with minimal python code. To use streamlit, the user must make sure they initialize the app using streamlit run... in the visual studio terminal.
 #### Skills: Python, Streamlit, Pandas
+https://github.com/margaretabbott/Abbott-Python-Portfolio/tree/main/Basic-Streamlit-App
 ## TidyData Project
 ### Description 
 #### The goal of this project is to apply the principles of tidy data using Python by cleaning, structuring, and visualizing a real-world dataset in a Jupyter Notebook. Following Hadley Wickham's framework, the project ensures that each variable forms a column, each observation forms a row, and each type of observational unit forms a table, making data analysis more efficient. 
 #### Skills: Python, Pandas, Seaborn, MatPlotLib 
+https://github.com/margaretabbott/Abbott-Python-Portfolio/tree/main/TidyData-Project
