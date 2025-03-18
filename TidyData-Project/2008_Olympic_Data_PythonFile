@@ -3,7 +3,6 @@ import pandas as pd
 olympics_2008=pd.read_csv("TidyData-Project/olympics_08_medalists.csv")
 print("This is the original untidied/unclensed 2008 olympic medalist data:")
 print(olympics_2008)
-### The original data is in wide format, so we should reshape it to be long format
 
 ## Melting The Data Into Long Format:
 olympics_2008_long=pd.melt(olympics_2008, 
