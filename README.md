@@ -12,3 +12,7 @@ https://github.com/margaretabbott/Abbott-Python-Portfolio/tree/main/Basic-Stream
 #### This project expands my skillset to allow me to clean and transform data into the most useful version. Using tidy data techniques, I can better analyze data and create more effective visualizations.
 #### Skills: Python, Pandas, Seaborn, MatPlotLib 
 https://github.com/margaretabbott/Abbott-Python-Portfolio/tree/main/TidyData-Project
+## Data Analysis With Python 
+### Description 
+#### This folder holds the work I completed in an course in Spring 2025. These assignments display knowledge of performing data-intensive tasks to make raw data organized, readable, and clean. 
+#### Skills: Python, Pandas, Seaborn, MatPlotLib, NumPy, yFinanace, mplFinance, Prophet, sklLearn, DateTime 
