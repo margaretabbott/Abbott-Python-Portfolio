@@ -16,3 +16,10 @@ https://github.com/margaretabbott/Abbott-Python-Portfolio/tree/main/TidyData-Pro
 ### Description 
 #### This folder holds the work I completed in an course in Spring 2025. These assignments display knowledge of performing data-intensive tasks to make raw data organized, readable, and clean. 
 #### Skills: Python, Pandas, Seaborn, MatPlotLib, NumPy, yFinanace, mplFinance, Prophet, sklLearn, DateTime 
+https://github.com/margaretabbott/Abbott-Python-Portfolio/tree/main/Data%20Analysis%20With%20Python
+## Name Entity Ruler Streamlit App 
+### Description 
+#### The goal of this project is to display my knowledge of Streamlit and natural langague processing by creating an app that allows users to explore Named Entity Recognition (NER) by inputting or uploading text and defining custom entity labels and patterns. Using spaCy’s EntityRuler, the app applies these custom rules to extract and visualize entities directly in the submitted text.
+#### This project expands my skillset to upload a Streamlit app into the cloud community. 
+#### Skills: Python, Streamlit, SpaCy, Pandas
+https://github.com/margaretabbott/Abbott-Python-Portfolio/tree/main/NERStreamlitApp
