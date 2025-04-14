@@ -4,7 +4,8 @@
 ## Instructions 
 ### This Python file is dependent on three Python libraries beyound the basic language: Pandas, Streamlit, and Spacy, all three of these libraries must be properly imported for this code to run properly.
 ## App Features
-###
+### This Streamlit app features a user-friendly interface with dropdowns for common labels, integrates spaCy’s Entity Ruler for pattern matching, and displays both a list and visual rendering of detected entities.
+## Link To My Streamlit App 
 ## Refrences 
-###
-## Visuals 
+* https://spacy.io/api/entityruler/
+* https://spacy.pythonhumanities.com/02_01_entityruler.html
