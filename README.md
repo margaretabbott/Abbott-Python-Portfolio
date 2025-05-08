@@ -34,4 +34,4 @@ The goal of this project is to demonstrate my **proficiency in Streamlit, data p
 This project expands my skillset as I have never used **StringIO** before.
 #### Skills: Python, Streamlit, Pandas, MatPlotLib
 Link to Project: https://github.com/margaretabbott/Abbott-Python-Portfolio/tree/main/StreamlitAppFinal  
-Link to Streamlit App: 
+Link to Streamlit App: https://rowingdataanalyzer.streamlit.app/  
