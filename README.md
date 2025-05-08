@@ -28,7 +28,7 @@ This project expands my skillset to **upload a Streamlit app into the cloud comm
 Link to project: https://github.com/margaretabbott/Abbott-Python-Portfolio/tree/main/NERStreamlitApp  
 Link to Streamlit App: https://margaretabbott-abbott-python-nerstreamlitappstreamlitner-lc6ns2.streamlit.app/
 ## Streamlit App Final
-### Description 
+### Description:
 The goal of this project is to demonstrate my **proficiency in Streamlit, data parsing, and data visualization** by creating an app that allows users to **analyze rowing workout data exported from NK CoxBox or SpeedCoach** devices. The app automatically detects and processes multiple data sections within a CSV file, cleans and structures the data, and enables interactive selection of key performance metrics. It generates insightful visualizations—including stroke rate trends, split times, and efficiency comparisons - to assist coaches, coxswains, and rowers in evaluating on-the-water performance.
 
 This project expands my skillset as I have never used **StringIO** before.
