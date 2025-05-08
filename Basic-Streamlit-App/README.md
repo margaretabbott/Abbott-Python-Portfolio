@@ -5,5 +5,9 @@ This project was my **first experience using Streamlit**. I built a **simple int
 Link to Python file: https://github.com/margaretabbott/Abbott-Python-Portfolio/blob/main/Basic-Streamlit-App/main.py  
 ### Instructions & Dependencies:
 Dependencies: **Streamlit**, **Pandas**
+### Dataset Description:
+This CSV file includes data such as the species and island penguins live on. As well as bill and flipper measurements that can be used for analysis.  
+
+Link to dataset: https://github.com/margaretabbott/Abbott-Python-Portfolio/blob/main/Basic-Streamlit-App/data/my_data_penguins.csv
 ### App Features: 
 This app includes basic comands like **dropdown and selection boxes**.
